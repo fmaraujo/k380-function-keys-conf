@@ -1,0 +1,1 @@
+ACTION=="add", KERNEL=="hidraw[0-9]*", RUN+="/home/fernando/projetos/k380-function-keys-conf/fn_on.sh /dev/%k"
